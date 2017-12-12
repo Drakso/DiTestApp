@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Business.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace Application
 	{
 		static void Main(string[] args)
 		{
-
+			var postServices = new PostServices();
+			postServices.
 		}
 	}
 }
